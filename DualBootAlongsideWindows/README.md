@@ -1,5 +1,5 @@
 
-# Dual Boot alongside Windows Legacy BIOS Only
+# :sunglasses: Dual Boot alongside Windows Legacy BIOS Only
 
 Easy no-hassle dual boot **Ubuntu** alongside **Windows**. ONLY LEGACY **BIOS** :older_man:, NOT **UEFI**!!!
 

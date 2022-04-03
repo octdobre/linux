@@ -8,6 +8,6 @@
 
 <div align="center">
 
-&nbsp;&nbsp;&nbsp;[Dual Boot Alongside Windows](DualBootAlongsideWindows/README.md)&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;[Dual Boot Alongside Windows](DualBootAlongsideWindows/README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[SSH](SSH/README.md)&nbsp;&nbsp;&nbsp;
 
 </div>
