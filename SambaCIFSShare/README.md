@@ -50,7 +50,7 @@ and `CIFS` will automatically make the `UID/GID` owner of this `folder` on `linu
   
 Example:  
 ```
-//MyDesktop/Movies /media/movies cifs credentials=/home/myuser/.credsfile,iocharset=utf8,dir_mode=0777,file_mode=0777,uid=998,gid=998 0 0
+//MyDesktop/Movies /media/movies cifs credentials=/home/myuser/.credentials,iocharset=utf8,dir_mode=0777,file_mode=0777,uid=998,gid=998 0 0
 ```
 
 From this point either restart Ubuntu or run this command `sudo mount -a `.
