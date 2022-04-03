@@ -8,6 +8,7 @@
 
 <div align="center">
 
-&nbsp;&nbsp;&nbsp;[Dual Boot Alongside Windows](DualBootAlongsideWindows/README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[SSH](SSH/README.md)&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;[Dual Boot Alongside Windows](DualBootAlongsideWindows/README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[SSH](SSH/README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Samba and CIFS Shares](SambaCIFSShare/README.md)&nbsp;&nbsp;&nbsp;
 
 </div>
+
