@@ -126,8 +126,8 @@ which resides in the `/Users/YourUser` in **Windows**.
 
 ## Using SSH with VSCode
 
-🔗 [SSH with VSCode]('' 'SSH with VSCode')
+:link:  [SSH with VSCode]('https://github.com/octdobre/workspace/blob/main/VSCode/README.md#remote-ssh-with-rsa-key-key' 'SSH with VSCode')
 
 ## :books: Documentation
 
-🔗 [Dual Booting Ubuntu](https://www.youtube.com/watch?v=-iSAyiicyQY&t=564s 'Dual Booting Ubuntu')
+:link:  [Dual Booting Ubuntu](https://www.youtube.com/watch?v=-iSAyiicyQY&t=564s 'Dual Booting Ubuntu')
