@@ -9,10 +9,10 @@ This tutorial will talk about:
 * :muscle: How to `login` from **Windows**
 
 ## Prerequisites 
-* **Ubuntu** 21 or later
-* **Windows** 10 or later
-* **Putty**
-* **WinSCP**
+* **Ubuntu** 21 or later installed on one computer
+* **Windows** 10 or later installed on another
+* **Putty** installed in **Windows**
+* **WinSCP** installed in **Windows**
 
 
 ## Installing SSH/Linux side
@@ -65,7 +65,7 @@ ssh myuser@mylinuxhostip_or_hostname
 ```
 Open or create the folder `.ssh` in your `/home/myuser` directory.
 ```
-sudo mkdir .ssh
+sudo mkdir /home/myuser.ssh
 ```
 Open or create the file `authorized_keys` in the `.ssh` folder.
 ```
@@ -96,7 +96,7 @@ Open **PuttyGen**:zap: and import the `private_key`:key: .
 
 Click on `Conversions` and click on `Export to OpenSSH key`.
 
-You can save it as a `private_key.pem`:key: file or not, but the format will be of type **PEM**.
+You can save it as a `private_key.pem`:key: or any file, extension doesnt matter, but the content of the file will be in the **PEM** format.
 
 Copy the content of `private_key.pem`:key: to `id_rsa`.
 
