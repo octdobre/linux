@@ -62,4 +62,4 @@ From this point either restart Ubuntu or run this command `sudo mount -a `.
 
 
 
-:point_right::link:[How to create a Samba share on Windows](TODO)
+:point_right::link:[How to create a Samba share on Windows](https://www.youtube.com/watch?v=AxhSvBg0dTM)

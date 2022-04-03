@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-     <p>Fun Linux tools and tricks.<p>
+     <p>Fun Linux tools and tricks<p>
 </h2>
 
 <div align="center">
@@ -12,3 +12,12 @@
 
 </div>
 
+<h2 align="center">
+     <p>Plex Media Server<p>
+</h2>
+
+<div align="center">
+
+&nbsp;&nbsp;&nbsp;[Installing and Managing](PlexServer/README.md)&nbsp;&nbsp;&nbsp;
+
+</div>
