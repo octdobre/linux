@@ -126,7 +126,7 @@ which resides in the `/Users/YourUser` in **Windows**.
 
 ## Using SSH with VSCode
 
-:link:  [SSH with VSCode]('https://github.com/octdobre/workspace/blob/main/VSCode/README.md#remote-ssh-with-rsa-key-key' 'SSH with VSCode')
+:link: <a href="https://github.com/octdobre/workspace/blob/main/VSCode/README.md#remote-ssh-with-rsa-key-key'">SSH with VSCode<a>
 
 ## :books: Documentation
 
