@@ -13,6 +13,16 @@
 </div>
 
 <h2 align="center">
+     <p>Management<p>
+</h2>
+
+<div align="center">
+
+&nbsp;&nbsp;&nbsp;[Users](Management/Users.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Networking](Management/Networking.md)&nbsp;&nbsp;&nbsp;
+
+</div>
+
+<h2 align="center">
      <p>Plex Media Server<p>
 </h2>
 
