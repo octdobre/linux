@@ -118,6 +118,47 @@ Now check UFW for the rule:
 sudo ufw status verbose
 ```
 
+## IP - View network devices
+```
+ip addr
+```
+View only IPV6 ip's:
+```
+ip -6 addr
+```
+## Check and Change IP forwarding
+```
+sudo cat /proc/sys/net/ipv4/ip_forward
+```
+For IPV4:
+```
+sudo sysctl -w net.ipv4.ip_forward=1
+```
+For IPV6:
+```
+sudo sysctl -w net.ipv6.conf.all.forwarding=1
+```
+Then reboot.
+## Turn off Wifi Radio
+```
+nmcli radio wifi off
+```
+## NLoad View network usage
+```
+nload <device-id>
+```
+## Ping
+```
+ping <ip addr>
+```
+## TCPDUMP tool
+You can run this to check if ping is reaching this machine.
+```
+sudo tcpdump -env1 wg0 host <ip addr>
+```
+
+
+
 ## Documentation :books:
 
 :point_right: :link: [UFW](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04)
