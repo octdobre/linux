@@ -91,9 +91,9 @@ sudo ufw allow samba
 ```
 
 Adding a user:raising_hand: to the samba share. This will enable other computers to login with this user to the share.
-
-    sudo smbpasswd -a <user>
-
+```
+sudo smbpasswd -a <user>
+```
 
 ## Mounting
 
