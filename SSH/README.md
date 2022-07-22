@@ -90,7 +90,7 @@ chown myuser /home/myuser/.ssh
 
 Create a folder `.ssh` in `C:/Users/myuser/`.
 
-Create a file `id_rsa`  in `C:/Users/myuser/.ssh`.
+Create a file `id_rsa_<name here>`  in `C:/Users/myuser/.ssh`.
 
 Open **PuttyGen**:zap: and import the `private_key`:key: .
 
@@ -100,11 +100,21 @@ You can save it as a `private_key.pem`:key: or any file, extension doesnt matter
 
 Copy the content of `private_key.pem`:key: to `id_rsa`.
 
+Create a file called 'config' here.
+
+Add entry:
+```
+Host <name of your choosing> <ip of host>
+    HostName <ip of host>
+    IdentityFile ~/.ssh/id_rsa_<name here>
+    User <remote username from the linux host>
+```
+
 ## Login with Powershell
 
 Open a `powershell terminal` and type.
 ```
-ssh myuser@myhost
+ssh <name of your choosing>
 ```
 
 You should now be able to `login` to the **linux server** without
@@ -130,4 +140,5 @@ which resides in the `/Users/YourUser` in **Windows**.
 
 ## :books: Documentation
 
+:link:  [SSH using ssh-keygen](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement)
 :link:  [Dual Booting Ubuntu](https://www.youtube.com/watch?v=-iSAyiicyQY&t=564s 'Dual Booting Ubuntu')
