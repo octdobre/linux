@@ -55,6 +55,10 @@ sudo rm -rf /var/lib/containerd
 
 ## Post Install docker cli permission
 --------------------------------------------------------------------------------
+Create a user group for docker.
+```
+sudo groupadd docker
+```
 Give permissions to the user to run docker commands without sudo.
 ```
 sudo usermod -aG docker 
