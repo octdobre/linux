@@ -7,6 +7,10 @@ and describing tools to debug networking issues.
 ```
 sudo apt install ufw
 ```
+UFW is installed by default on ubuntu server but we need to enable it:
+```
+sudo ufw enable
+```
 
 UFW or "Uncomplicated Firewall":fire: is a service to manage network filtering.
 
