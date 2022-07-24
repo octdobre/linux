@@ -35,13 +35,28 @@ Add the following contents:memo::
 ```
 # Settings for Samba service
 [global]
-server string = <name here> File Server
-workgroup = WORKGROUP
-security = user
-#map to gues = Bad User
+server string = File Server
+comment = Disk share
+
+#Shares
+include = /etc/samba/shares.conf
+
+#Security
+#Network card selection
+interfaces = 127.0.0.1, <ip from server network card>/24
+bind interfaces only = yes
 name resolve order = bcast host
-# External file to define shares
-include = /etc/samba/shares.conf  
+workgroup = WORKGROUP
+
+#Host filtering
+hosts allow = 127.0.0.1,  <ip from server network card>,  <other ip you want to make accessible>
+hosts deny = 0.0.0.0/0
+
+#Private shares
+security = user
+encrypt passwords = true
+map to guest = bad user
+guest account = nobody
 ```
 Create the external shares file.
 ```
@@ -50,15 +65,19 @@ sudo nano /etc/samba/shares.conf
 And add your share:
 ```
 [LocalMovies]
-path = <path to folder you want to share>
-force user = smbuser
-force group = smbgroup
+path = <path here>
+force user = <force user>
+force group = <force group>
 create mask = 0777
 create mode = 0777
 directory mask = 0777
 force directory mode = 0777
 public = yes
 writeable = yes
+guest ok = no
+read only = no
+browsable = no
+valid users = <user>
 ```
 
 Create the group:family: and the user:raising_hand:. You can also use whatever group or user you wish.
@@ -160,3 +179,7 @@ From this point either restart Ubuntu or run this command `sudo mount -a `.
 
 
 :point_right::link:[How to create a Samba share on Windows](https://www.youtube.com/watch?v=AxhSvBg0dTM)
+
+:point_right::link:[Samba Server Guide](https://help.ubuntu.com/community/Samba/SambaServerGuide#Samba_Server_Configuration_by_GUI)
+
+:point_right::link:[Detailed Samba Server Guide](https://www.samba.org/samba/docs/using_samba/ch00.html)
