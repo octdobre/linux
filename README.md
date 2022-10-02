@@ -18,7 +18,7 @@
 
 <div align="center">
 
-&nbsp;&nbsp;&nbsp;[Users](Management/Users.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Networking](Management/Networking.md)&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;[Users](Management/Users.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Networking](Management/Networking.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[IPv6](Management/IPv6.md)&nbsp;&nbsp;&nbsp;
 
 </div>
 
