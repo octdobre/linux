@@ -35,7 +35,7 @@ or not depending on what kind of `SCOPE` the `IP` belongs to.
 
 Depending on how the `IP` looks, it belongs to a specific `SCOPE`. 
 
-| Range     | Purpose            |Scope Name    | Availability |
+| Range     | Purpose            |Scope Name    | Can be reached from |
 | --------- | -------------------|--------------|--------------|
 | ::1/128   | Loopback address   |              | LocalHost    | 
 | 2000::/3  | GLOBAL unicast     | GLOBAL       | Internet     |
@@ -61,7 +61,14 @@ Under this circumstance, a `host` can be reached from anywhere.
 An `IPv6` IP is divided into 3 sections: `Network address`, `Subnet`, and `Device Id`.
 
 The first 3 `hextets` are used for the **network address**, the 4th `hextet` is used for the **subnet Id** and the 
-last 4 `hextets` are used as a `device Id` or **Interface Id**.
+last 4 `hextets` are used as a `device Id` or **Interface Id**. 
+
+In most `router interfaces` the `IPv6 IP` of a `host` is displayed as the last 4 `hextets` of the full `IP` 
+and under the name **Interface ID**.
+```
+Interface Id example
+::0000:0000:0000:0001
+```
 
  The last 4 `hextets` are derived from the device MAC address.
 
