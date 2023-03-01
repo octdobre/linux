@@ -166,6 +166,12 @@ ping6 <IP>
 ping6 ipv6.google.com
 ```
 
+### Testing Correct Routing
+
+With this command we can figure out if a host has a route to another network when pinging.
+```
+tcpdump -i eth0 icmp6
+```
 ### Testing ingress (to inside) conectivity
 
 :point_right::link:[online ipv6 ping with results](http://www.ipv6now.com.au/pingme.php)
