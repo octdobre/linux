@@ -170,6 +170,20 @@ ping6 ipv6.google.com
 
 :point_right::link:[online ipv6 ping with results](http://www.ipv6now.com.au/pingme.php)
 
+### Testing other link-local addresses
+Link-local addresses have a limited scope, which means they are only visible in a certain context. 
+
+That's how it's possible to have a link-local address on every interface although technically, the addresses all belong in the same subnet.
+
+```
+ping6 -I <network interface name>  <link-local adress of other host on network>
+```
+Or
+```
+ping6 fe80::aff1:8891:5fd1:1f2d%enp1s0
+```
+Where the interface Id is appended at the end with a '%' prefix.
+
 ### Find a route to the host:
 ```
 route -A inet6
